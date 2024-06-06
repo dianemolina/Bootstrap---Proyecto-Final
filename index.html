@@ -3,64 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
     <title>Proyecto Final - Porfolio</title>
 </head>
-<body class="bg-black">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky h6 nav-fill">
-        <div class="container-fluid p-3 ps-5 mb-2 bg-black" >
-          <a class="navbar-brand margiun text-white" href="#">Diane Molina // LOGO</a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
-            <ul class="navbar-nav nav-underline">
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-              </li>
-              <li class="nav-item text-white">
-                <a class="nav-link text-white" href="#">Acerca de</a>
-              </li>
-              <li class="nav-item text-white">
-                <a class="nav-link text-white" href="#">Habilidades</a>
-              </li>
-              <li class="nav-item text-white">
-                <a class="nav-link text-white" href="#">Contacto</a>
-              </li>
-              
-            </ul>
+<div class="container">
+  <body class="bg-black">
+      <header id="home" class="container">
+        <nav class="navbar bg-black navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand margiun text-white" href="#">Diane Molina // LOGO</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+              <ul class="navbar-nav nav-underline">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu bg-black text-white">
+                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Diseño</a></li>
+                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Marca</a></li>
+                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Web</a></li>
+                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Apoyo</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item text-white">
+                  <a class="nav-link text-white" href="#acercaDe">Acerca de</a>
+                </li>
+                <li class="nav-item text-white">
+                  <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item text-white">
+                  <a class="nav-link text-white" href="#contacto">Contacto</a>
+                </li>
+                
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <main>
-        <section>
-          <h2>DIANE MOLINA</h2>
-          <div class="container text-center">
-            <img src="./img/img textura fondo-01-01.png" alt="foto" width="1000px" height="1000px">
+        </nav>
+      </header>
+        <main>
+          <section class="container principal text-center mt-5">
+            <h2 class="nombre text-white jersey-20-regular">DIANE<br>MOLINA</h2>
+            <div class="container">
+              <img clas="img-fluid rounded mx-auto d-block"  src="./img/img textura fondo-01-01 chica.png" alt="foto">
+            </div>
+          </section>             
+        
+        
+          <section id="servicios" class="container text-center">
+            <h2 class=" ss jersey-20-regular mt-5 mb-5">SERVICIOS</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne "><div class="w-100 d-flex justify-content-center">DISEÑO</div>
+                </button>
+                </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse    collapse">
+                <div class="accordion-body">
+                  <strong>Soluciones de diseño gráfico visualmente atractivas adaptadas a cada necesidad específica
+                </div>
+              </div>
+              </div>
+               <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo ">
+                  <div class="w-100 d-flex justify-content-center">MARCA</div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Crear identidad de marca exquisita y estratégicamente agradables.
+                </div>
+              </div>
+              </div>
+              <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                  <div class="w-100 d-flex justify-content-center">WEB</div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Desarrollo de web en línea y presentaciones creativas.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  <div class="w-100 d-flex justify-content-center">APOYO</div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Disponibilidad en requisitos de alteraciones de diseño y modificaciones decódigo
+                </div>
+              </div>
+            </div>
           </div>
-        </section>             
+        </section>
 
 
-      </main>
+          <section id="acercaDe">
+            <h2 class=" ss jersey-20-regular text-center mt-5">ACERCA DE</h2>
+            <div class="container-fluid mt-5">
+              <p class="lh-base font-monospace text-center text-white">
+                Hola ! Soy Diane Molina.</p>
+              <p class="lh-base font-monospace text-center text-white">  Diseñadora y   
+                Egresada de Universidad Siglo21, en Diseño y Animacion Digital, desarrollando un fuerte dominio de herramientas como Adobe Creative Suite y softwares de animación.</p>
+              <p class="lh-base font-monospace text-center text-white">Finalizando recientemente la certificación Professional Front End Developer en UTN.BA, adquiriendo las herramientas necesarias para la creación de sitios visualmente atractivos, funcionales y responsivos.
+              </p>
+            </div>
 
-      <footer>
+          </section>
 
 
-      </footer>
-     
+        </main>
+
+        <footer>
 
 
+        </footer>
+      
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</div>
 </html>
