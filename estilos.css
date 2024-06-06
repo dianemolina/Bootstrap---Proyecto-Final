@@ -9,6 +9,7 @@ nav{
     margin-left: 150px;
     position: absolute;
     font-size: 150px;
+    z-index: +1;
 }
 
 @media (max-width: 992px) { 
@@ -41,6 +42,46 @@ nav{
   }
 
 
-/*color: rgb(114, 65, 129);*/
+/* Animación */
 
-/*color: rgb(233, 183, 127);*/
+img{
+    animation: opacidad 6s 1 ;
+}
+@keyframes opacidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;;
+    }
+}
+.nombre{
+    animation: up 4s 1;
+}
+@keyframes up {
+    from{
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.ss{
+    animation: libre 5s infinite ;
+}
+@keyframes libre {
+    from{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.h2f:hover{
+    transform: scale(1.1);  
+}
