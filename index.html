@@ -3,139 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./estilos.css">
-    <title>Proyecto Final - Porfolio</title>
+    <link rel="icon" href="./img/logo white_Mesa de trabajo 1_Mesa de trabajo 1.png">
+    <title>Proyecto Final - Portfolio</title>
 </head>
-<div class="container">
-  <body class="bg-black">
-      <header id="home" class="container">
-        <nav class="navbar bg-black navbar-expand-lg">
+<body class="container bg-black">
+  <header class="container fixed-top ">
+        <nav class="navbar bg-black navbar-expand-lg pt-2 mb-2">
           <div class="container-fluid">
-            <a class="navbar-brand margiun text-white" href="#">Diane Molina // LOGO</a> 
+            <a class="navbar-brand margiun jersey-20-regular colorbarra" href="#contacto">D - M</a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
               <ul class="navbar-nav nav-underline">
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link text-warning" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle text-warning" href="#servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Servicios
                   </a>
                   <ul class="dropdown-menu bg-black text-white">
-                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Diseño</a></li>
-                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Marca</a></li>
-                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Web</a></li>
-                    <li><a class="dropdown-item bg-black text-white" href="#servicios">Apoyo</a></li>
+                    <li><a class="dropdown-item bg-black text-warning" href="#servicios">Diseño</a></li>
+                    <li><a class="dropdown-item bg-black text-warning" href="#servicios">Marca</a></li>
+                    <li><a class="dropdown-item bg-black text-warning" href="#servicios">Web</a></li>
+                    <li><a class="dropdown-item bg-black text-warning" href="#servicios">Apoyo</a></li>
                   </ul>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link text-white" href="#acercaDe">Acerca de</a>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#acercaDe">Acerca de</a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#habilidades">Habilidades</a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link text-white" href="#contacto">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#contacto">Contacto</a>
                 </li>
-                
-              </ul>
+                </ul>
             </div>
           </div>
         </nav>
-      </header>
-        <main>
-          <section class="container principal text-center mt-5">
+  </header>
+  <main>
+    <section id="home" class="container principal text-center mt-5 pt-5 mt-5 pb-5">
             <h2 class="nombre text-white jersey-20-regular">DIANE<br>MOLINA</h2>
-            <div class="container">
-              <img clas="img-fluid rounded mx-auto d-block"  src="./img/img textura fondo-01-01 chica.png" alt="foto">
+            <div class="container text-center pt-5 pb-5">
+              <img clas="img-fluid" width="70%" height="auto"  src="./img/img textura fondo-01-01 chica.png" alt="foto">
             </div>
           </section>             
-        
-        
-          <section id="servicios" class="container text-center">
-            <h2 class=" ss jersey-20-regular mt-5 mb-5">SERVICIOS</h2>
+               
+          <section id="servicios" class="container text-center mt-5 pb-5 border-1 border-top border-warning ">
+            <h2 class=" ss jersey-20-regular mt-5 mb-5 pt-5">SERVICIOS</h2>
             <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
+              <div class="accordion-item mx-auto col col-md-6 mt-2">
                 <h2 class="accordion-header ">
-                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne "><div class="w-100 d-flex justify-content-center">DISEÑO</div>
+                <button class="accordion-button collapsed jersey-20-regular fs-1  text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne "><div class="w-100 d-flex justify-content-center">DISEÑO</div>
                 </button>
                 </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse    collapse">
-                <div class="accordion-body">
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body bg-black colorbarra">
                   <strong>Soluciones de diseño gráfico visualmente atractivas adaptadas a cada necesidad específica
                 </div>
               </div>
               </div>
-               <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo ">
+               <div class="accordion-item mx-auto col col-md-6 mt-2">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo ">
                   <div class="w-100 d-flex justify-content-center">MARCA</div>
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  <strong>Crear identidad de marca exquisita y estratégicamente agradables.
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body bg-black text-warning">
+                  <strong >Crear identidad de marca exquisita y estratégicamente agradables.
+                </div>
                 </div>
               </div>
-              </div>
-              <div class="accordion-item">
-              <h2 class="accordion-header">
+              <div class="accordion-item mx-auto col col-md-6 mt-2">
+                <h2 class="accordion-header">
                 <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
                   <div class="w-100 d-flex justify-content-center">WEB</div>
                 </button>
-              </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body bg-black colorbarra">
                   <strong>Desarrollo de web en línea y presentaciones creativas.
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item mx-auto col col-md-6 mt-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed jersey-20-regular fs-1 text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                   <div class="w-100 d-flex justify-content-center">APOYO</div>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  <strong>Disponibilidad en requisitos de alteraciones de diseño y modificaciones decódigo
+                <div class="accordion-body bg-black text-warning">
+                  <strong>Disponibilidad en requisitos de alteraciones de diseño y modificaciones de código
                 </div>
               </div>
             </div>
           </div>
-        </section>
+  </section>
 
 
-          <section id="acercaDe">
-            <h2 class=" ss jersey-20-regular text-center mt-5">ACERCA DE</h2>
-            <div class="container-fluid mt-5">
-              <p class="lh-base font-monospace text-center text-white">
+          <section class="container mt-5 pb-5 mb-5 border-1 border-top border-warning " id="acercaDe">
+            <h2 class=" ss jersey-20-regular text-center mt-5 pt-5">ACERCA DE</h2>
+            <div class="container-fluid mt-5 col-md-7 fs-5">
+              <p class="lh-base fw-light font-monospace text-center colorbarra">
                 Hola ! Soy Diane Molina.</p>
-              <p class="lh-base font-monospace text-center text-white">  Diseñadora y   
-                Egresada de Universidad Siglo21, en Diseño y Animacion Digital, desarrollando un fuerte dominio de herramientas como Adobe Creative Suite y softwares de animación.</p>
-              <p class="lh-base font-monospace text-center text-white">Finalizando recientemente la certificación Professional Front End Developer en UTN.BA, adquiriendo las herramientas necesarias para la creación de sitios visualmente atractivos, funcionales y responsivos.
-              </p>
+                <p class="lh-base fw-light font-monospace text-center colorbarra">Diseñadora y animadora apasionada por la creación de contenido visual atractivo y dinámico. <br> Haciendo uso de herramientas de diseño gráfico y web, con un enfoque en crear soluciones visuales impactantes y funcionales. <br>Con capacidad para conceptualizar y ejecutar ideas innovadoras, con una fuerte atención al detalle y una gran motivación para aprender y crecer en el campo del diseño.</p>
+              <p class="lh-base fw-light font-monospace text-center colorbarra">Egresada de Universidad Siglo21, en Diseño y Animacion Digital, desarrollando un fuerte dominio de herramientas como Adobe Creative Suite y softwares de animación.</p>
+              <p class="lh-base fw-light font-monospace text-center colorbarra">Finalizando recientemente la certificación Professional Front End Developer en UTN.BA, adquiriendo las herramientas necesarias para la creación de sitios visualmente atractivos, funcionales y responsivos.</p>
             </div>
 
           </section>
+          <section id="habilidades" class="row pt-5 border-1 border-top border-warning ">
+            <h2 class=" ss jersey-20-regular text-center mt-5 mb-5">HABILIDADES</h2>
 
+            <div class="container col-md-7 mt-3 mb-3">    
+                <div class="d-flex justify-content-between">
+                <h2 class="jersey-20-regular colorbarra">DISEÑO GRÁFICO</h2>
+                <h2 class="jersey-20-regular colorbarra">85%</h2>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar border border-2 progress-bar-striped progress-bar-animated bg-warning" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="container col-md-7 mt-3 mb-3">    
+              <div class="d-flex justify-content-between">
+              <h2 class="jersey-20-regular colorbarra">HTML</h2>
+              <h2 class="jersey-20-regular colorbarra">75%</h2>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar border border-2 progress-bar-striped progress-bar-animated bg-warning" style="width: 75%"></div>
+              </div>
+          </div>
+          <div class="container col-md-7 mt-3 mb-3">    
+            <div class="d-flex justify-content-between">
+            <h2 class="jersey-20-regular colorbarra">CSS</h2>
+            <h2 class="jersey-20-regular colorbarra">70%</h2>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar border border-2 progress-bar-striped progress-bar-animated bg-warning" style="width: 70%"></div>
+            </div>
+        </div>
+        <div class="container col-md-7 mt-3 mb-3">    
+          <div class="d-flex justify-content-between">
+          <h2 class="jersey-20-regular colorbarra">JAVASCRIPT</h2>
+          <h2 class="jersey-20-regular colorbarra">70%</h2>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar border border-2 progress-bar-striped progress-bar-animated bg-warning" style="width: 70%"></div>
+          </div>
+      </div>
+      <div class="container col-md-7 mt-3 mb-3 mb-5 pb-5">    
+        <div class="d-flex justify-content-between">
+        <h2 class="jersey-20-regular colorbarra">FRAMEWORK - BOOTSTRAP</h2>
+        <h2 class="jersey-20-regular colorbarra">80%</h2>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar border border-2 progress-bar-striped progress-bar-animated bg-warning" style="width: 80%"></div>
+        </div>
+    </div>
 
-        </main>
+          </section>
 
-        <footer>
+          <section class="container mb-5 border-1 border-top border-warning " id="contacto">
+            <h2 class=" ss jersey-20-regular text-center mt-5 pt-5">CONTACTO</h2>
+            <p class="lh-base fw-light font-monospace text-center colorbarra mt-5 mb-5 fs-5">
+              ¿ Tienes una idea ? <br> Construyamosla Juntos.</p>
+            <div class="">
+              <div class="mb-3 col-md-6 text-center mx-auto ">
+                <label for="exampleFormControlInput1" class="form-label text-warning ">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3 col-md-6 text-center mx-auto">
+                <label for="exampleFormControlTextarea1" class="form-label text-warning ">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="d-grid col-2 mx-auto mb-5">
+              <button type="button" class="btn btn-warning text-white font-monospace fs-5 mb-5">Enviar</button>
+              </div>
+            </div>
 
-
+          </section>
+  </main>
+  <footer class="container mt-5 mb-5 text-white border-1 border-top border-warning">
+          <div class="row mt-5 justify-content-center mt-5 ">
+            <a href="https://www.instagram.com/" target="_blank" class="col-1 bi bi-instagram footerIcons"></a>
+            <a href="https://www.behance.net/" target="_blank" class="col-1 bi bi-behance footerIcons"></a>
+            <a href="https://github.com/" target="_blank" class="col-1 bi bi-github footerIcons"></a>
+            <a href="https://twitter.com/" target="_blank" class="col-1 bi bi-twitter-x footerIcons"></a>
+            <a href="https://ar.linkedin.com/" target="_blank" class="col-1 bi bi-linkedin footerIcons"></a>
+          </div>
+          <a href="#home" class="row justify-content-center footerIcons mt-4 mb-3">D - M</a> 
         </footer>
       
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
-</div>
 </html>
